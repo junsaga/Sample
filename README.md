@@ -1,75 +1,46 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>쉬다가개 - 반려동물 전용 숙박업소 예약 서비스</title>
-</head>
-<body>
-
-<h1>쉬다가개 - 반려동물 전용 숙박업소 예약 서비스</h1>
-
-<p>산업 매출액 기준 2027년에는 6조를 예상할만큼 반려동물 관련 시장 규모 전망이 매우 좋고 반려동물 호텔 업체 수가 2023년 기준 5년전과 비교하면 약 3배 정도로 빠른속도로 늘어나고 있는데 반려동물 전용 숙박업소 예약 플랫폼 앱은 존재하지않기 때문에 기획하여 만든 반려동물 전용 숙박업소 예약 서비스 앱입니다</p>
-
-<h2>주요 기능</h2>
-
-<ul>
-    <li>가까운 호텔 찾기: 내 위치에서 가까운 호텔 정보를 제공합니다.</li>
-    <li>맞춤 호텔 추천: 내가 남긴 호텔의 리뷰의 별점을 기반으로 추천하는 호텔의 정보를 제공합니다.</li>
-    <li>호텔 검색: 원하는 키워드를 입력하여 해당 키워드에 적합한 호텔을 검색할 수 있습니다.</li>
-    <li>예약 서비스: 원하는 날짜에 예약할 수 있는 호텔 정보를 제공합니다.</li>
-    <li>관심 리스트: 관심있는 호텔 정보를 관심 리스트에 저장할 수 있습니다.</li>
-    <li>리뷰 작성: 호텔을 이용하고 별점과 리뷰를 남길 수 있습니다.</li>
-    <li>리뷰 요약 기능: 해당 호텔의 전체 리뷰를 요약하여 보다 편리하고 빠르게 리뷰 확인이 가능합니다.</li>
-</ul>
-
-<h2>기술 스택(Tech Skill)</h2>
-
-<table>
-    <thead>
-        <tr>
-            <th>Category</th>
-            <th>Stack</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Architecture</td>
-            <td>MVC</td>
-        </tr>
-        <tr>
-            <td>Android Jetpack</td>
-            <td>ViewModel, LiveData, Navigation, RecyclerView, Fragment</td>
-        </tr>
-        <tr>
-            <td>Networking</td>
-            <td>Retrofit2, OkHttp3</td>
-        </tr>
-    </tbody>
-</table>
-
-<h2>팀 멤버</h2>
-
-<table>
-    <thead>
-        <tr>
-            <th>이름</th>
-            <th>GitHub 아이디</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>왕현성</td>
-            <td>hyunsungKR</td>
-        </tr>
-        <tr>
-            <td>윤지수</td>
-            <td>Yunwltn</td>
-        </tr>
-        <tr>
-            <td>백민우</td>
-            <td>leobaek</td>
-        </tr>
-    </tbody>
-</table>
-
-</body>
-</html>
+![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=300&section=header&text=🍳%20Welcome%20to%20visit%20Mochelin%20Client%20👋&fontSize=45)
+​
+---
+# 당신이 찾는 맛집! 주변의 새로운 만남이 있는 곳, 모슐랭��
+​
+## �� Project Explanation
+- 맛집 평가에 대한 접근성이 낮고, 주변에 취향이 맞는 사람을 쉽게 찾을 수 없어 기획
+- 가고 싶은 맛집의 리뷰와 모임을 실시간으로 보여주는 서비스
+---
+📝 리뷰 요약 서비스 : 유저가 작성한 전체 리뷰를 요약해서 보여줍니다.
+​
+## �� Language <br/>
+[![java Badge](https://img.shields.io/badge/-java-orange?style=flat)](https://www.oracle.com/java/technologies/downloads/)
+<br/>
+​
+## ��️ Tool<br/>
+[![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=Postman&logoColor=white)](https://www.postman.com/downloads/)
+[![Android Studio Badge](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat&logo=Android%20Studio&logoColor=white)](https://developer.android.com/studio)
+<br/>
+​
+## ☁️ AWS<br/>
+[![Amazon RDS Badge](https://img.shields.io/badge/AWS%20RDS-4479A1?style=flat&logo=Amazon%20RDS&logoColor=white)](https://aws.amazon.com/ko/rds/)
+[![Amazon IAM Badge](https://img.shields.io/badge/AWS%20IAM-red?style=flat&logo=Amazon%20IAM&logoColor=white)](https://aws.amazon.com/ko/rds/)
+[![Amazon S3 Badge](https://img.shields.io/badge/AWS%20S3-569A31?style=flat&logo=Amazon%20S3&logoColor=white)](https://aws.amazon.com/ko/s3/)
+[![Amazon Lambda Badge](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat&logo=AWS%20Lambda&logoColor=white)](https://aws.amazon.com/ko/lambda/)
+[![Amazon API Gateway Badge](https://img.shields.io/badge/AWS%20API%20Gateway-blue?style=flat&logo=AWS%20API%20Gateway&logoColor=white)](https://aws.amazon.com/ko/api-gateway/)
+[![Amazon CloudWatch Badge](https://img.shields.io/badge/AWS%20CloudWatch-FF4F8B?style=flat&logo=AWS%20CloudWatch&logoColor=white)](https://aws.amazon.com/ko/cloudwatch/)
+​
+<br/>
+​
+## Librarys
+- Navigation
+- TabBar
+- RetroFit2
+- Glide
+- Common-io
+- Kakao Login API
+- Google Maps
+- Sliding Up Panel Layout
+​
+## Screen Shot
+​
+​
+​
+​
+​
